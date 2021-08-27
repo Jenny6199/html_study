@@ -1,0 +1,136 @@
+
+body {
+    font-family: sans-serif;
+    background-color:khaki;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(16, 171, 243);
+    font-size: 64px;
+    color:#1f3F68;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    border: 1px solid blue;
+    border-radius: 20px; 
+}
+
+.menu {
+    background-color: aqua;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    height: 24px;
+    text-align: center;
+}
+
+.content {
+    background-color: dodgerblue;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1f3f68;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color:deepskyblue;
+    font-size: 16px;
+    line-height: 26px;
+    color:indigo;
+    margin: 10px;
+    border: 1px double black;
+    border-radius: 20px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.paragraph {
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.paragraph:hover {
+    border: 3px solid indigo;
+}
+
+
+.block {
+    height: 70px;
+    width: 33%;
+    background-color: #5a98d0;
+    border: 2px double green;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+}
+
+.cards {
+    float:right
+}
+
+
+li {
+    list-style-type: none;
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+.h1 {
+    font-size: 64px;
+    color:#1f3F68
+}
+
+.h2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1f3F68
+}
+
+
+/* Кнопка и поля ввода на странице Contacts */
+.text-area {
+    border: 1px solid #356ead;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.submit {
+    background: #5a98d0;
+    box-shadow: 5px 20px 50 px rgba(16, 112, 117, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
