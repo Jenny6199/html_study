@@ -1,121 +1,160 @@
+/*
+------------------------------------
+Общий блок
+------------------------------------
+*/
 
-body {
-    font-family: sans-serif;
-    background-color:khaki;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
-}
-
-.header {
-    background-color: rgb(16, 171, 243);
-    font-size: 64px;
-    color:#1f3F68;
-    text-align: center;
-    font-weight: bold;
-    margin: 10px;
-    border: 1px solid blue;
-    border-radius: 20px; 
-}
-
-.menu {
-    background-color: aqua;
-    border: 1px solid blue;
-    border-radius: 10px;
-    font-size: 16px;
-    margin: 10px;
-    padding: 10px;
-    height: 24px;
-    text-align: center;
-}
-
-.content {
-    background-color: dodgerblue;
-    font-size: 16px;
-    line-height: 26px;
-    color: #1f3f68;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid blue;
-    border-radius: 20px;
-}
-
-.footer {
-    background-color:deepskyblue;
-    font-size: 16px;
-    line-height: 26px;
-    color:indigo;
-    margin: 10px;
-    border: 1px double black;
-    border-radius: 20px;
 }
 
 a:hover {
     font-weight: bold;
 }
 
-.paragraph {
-    border: 1px solid blue;
-    border-radius: 10px;
-    margin: 15px;
-    padding: 15px;
-}
-
-.paragraph:hover {
-    border: 3px solid indigo;
-}
-
-
-.block {
-    height: 70px;
-    width: 33%;
-    background-color: #5a98d0;
-    border: 2px double green;
-    border-radius: 10px;
-    margin: 5px;
-    padding: 5px;
-    text-align: left;
-}
-
-.cards {
-    float:right
-}
-
-
-li {
-    list-style-type: none;
-}
-
-li:hover {
-    font-weight: bold;
-}
-
 .h1 {
-    font-size: 64px;
-    color:#1f3F68
-}
-
-.h2 {
-    font-weight: 500;
-    font-size: 44px;
-    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px;
 }
 
 .h3 {
-    font-size: 24px;
-    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 425px;
+    text-align: left;
+    margin: 10px;
 }
 
-.h4 {
-    font-size: 20px;
-    line-height: 30px;
-    color: #1f3F68
+ul {
+    list-style: none;
+}
+
+/* 
+------------------------------------
+Блок для header. 
+------------------------------------
+*/
+.header {
+    border: 1px solid blue;
+    background-color:cornflowerblue;
+}
+
+.title {
+    background-color: skyblue;
+    width: 510px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header_p {
+    width: 425px;
+    text-align: left;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+/* 
+------------------------------------
+Блок для content.
+------------------------------------
+*/
+
+.content {
+    margin-top: 10px;
+    background-color: dodgerblue;
+    align-content: center;
+}
+
+.what-we-do {  /* Согласно ТЗ :) */
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.card {
+    width: 359px;
+    height: 359px;
+    min-width: 100px;
+    min-height: 100px;
+    border: 1px solid black;
+    background-color: darkturquoise;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card-3 {
+    background-color:mediumpurple;
+}
+
+.card_href {
+    align-self: flex-end;
+}
+
+.block {
+    display: flex;
+    justify-content: stretch;
+
+}
+
+.block-1 {
+    width: 400px;
+    margin: 10px;
 }
 
 
-/* Кнопка и поля ввода на странице Contacts */
+/*
+------------------------------------
+Блок для footer
+------------------------------------
+*/
+
+.footer {
+    margin-top: 10px;
+    border: 2px solid blue;
+    min-height: 100px;
+    background-color: cornflowerblue;
+}
+
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraph {
+    width: 495px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+.copy {
+    border: none;
+}
+
+/* 
+------------------------------------
+Кнопка и поля ввода на странице Contacts 
+------------------------------------
+*/
+
 .text-area {
     border: 1px solid #356ead;
     box-sizing: border-box;
